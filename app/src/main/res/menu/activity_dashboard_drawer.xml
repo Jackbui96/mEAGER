@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_nearbyIncident"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Nearby Incidents" />
+        <item
+            android:id="@+id/nav_subscription"
+            android:icon="@drawable/ic_notifications_active_black_24dp"
+            android:title="Notification" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_event_available_black_24dp"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Account" />
+        <item
+            android:id="@+id/nav_admin_mode"
+            android:icon="@drawable/ic_admin_mode"
+            android:title="Admin Mode" />
+    </group>
+
+</menu>
